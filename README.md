@@ -32,16 +32,16 @@ Open **Postman** to test the API and its full CRUD functionality. Below you will
 
 View the planets and their data.
 ```bash
-  GET localhost:3000/api/planets
+  **GET** localhost:3000/api/planets
 ```
 View a single planet and its data.
 ```bash
-  GET localhost:3000/api/planets/:planet id
+  **GET** localhost:3000/api/planets/:planet id
 ```
 Create a new planet.
 ```bash
 STEP 1:
-  POST localhost:3000/api/planets
+  **POST** localhost:3000/api/planets
 ```
 ```bash
 STEP 2: Add the data of the new planet in the body.
@@ -63,7 +63,7 @@ ex.
 Update an existing planet's data.
 ```bash
 STEP 1.
-  PUT localhost:3000/api/:planet id 
+  **PUT** localhost:3000/api/:planet id 
 ```
 ```bash
 STEP 2. Add the data you would like to update in the body.
@@ -75,7 +75,7 @@ ex.
 ```
 Delete a planet.
 ```bash
-  DELETE localhost:3000/api/:planet id 
+  **DELETE** localhost:3000/api/:planet id 
 ```
 
 
