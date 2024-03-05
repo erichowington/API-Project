@@ -16,20 +16,11 @@ A database of all of the planets in our solar system.
 Download the API with github by forking and cloning the repo.
 
 ```bash
-    git clone (url)
-    cd api-project
+    ~ git clone (url)
+    ~ cd api-project
+    ~ npm i
 ```
-Install dependencies.
-
-```bash
-    npm i mongoose
-    npm i express
-    npm i node-fetch
-    npm i cors
-    npm i morgan
-    npm i chalk
-```
-and lastly, in your **package.json** add to use updated import syntax.
+In your **package.json** add the below to use updated import syntax.
 ```bash
     "type":"module",
 ```
@@ -45,7 +36,7 @@ View the planets and their data.
 ```
 View a single planet and its data.
 ```bash
-  GET localhost:3000/api/planets/  planet id
+  GET localhost:3000/api/planets/:planet id
 ```
 Create a new planet.
 ```bash
@@ -72,7 +63,7 @@ ex.
 Update an existing planet's data.
 ```bash
 STEP 1.
-  PUT localhost:3000/api/  planet id 
+  PUT localhost:3000/api/:planet id 
 ```
 ```bash
 STEP 2. Add the data you would like to update in the body.
@@ -84,7 +75,7 @@ ex.
 ```
 Delete a planet.
 ```bash
-  DELETE localhost:3000/api/  planet id 
+  DELETE localhost:3000/api/:planet id 
 ```
 
 
@@ -96,4 +87,6 @@ Delete a planet.
 **Framework:** Mongoose
 
 **Server:** Node, Express
+
+**Dependencies:** Morgan, Chalk, Node-Fetch, CORS, Express, Mongoose
 
