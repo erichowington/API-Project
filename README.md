@@ -27,7 +27,7 @@ In your **package.json** add the below to use updated import syntax.
 
 ## ROUTES
 
-Open postman to test the API and its full CRUD functionality. Below you will find examples of the routes availble and how to access them.
+Open **Postman** to test the API and its full CRUD functionality. Below you will find examples of the routes availble and how to access them.
 
 
 View the planets and their data.
