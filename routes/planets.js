@@ -12,7 +12,7 @@ router.get("/:id", controllers.getPlanet);
 //            Create a new planet.
 router.post("/", controllers.createPlanet);
 
-//           Updata existing planet.
+//           Update existing planet.
 router.put("/:id", controllers.updatePlanet);
 
 //            Delete existing planet.
