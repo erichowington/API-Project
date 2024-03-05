@@ -17,9 +17,9 @@ app.use("/api", routes);
 
 db.on("connected", () => {
   console.clear();
-  console.log(chalk.blue("connected to MongoDB!!"));
+  console.log(chalk.bgYellow("connected to MongoDB!!"));
 
   app.listen(PORT, () => {
-    console.log(chalk.magenta(`Express server running on port ${PORT}`));
+    console.log(chalk.blueBright(`Express server running on port ${PORT}`));
   });
 });

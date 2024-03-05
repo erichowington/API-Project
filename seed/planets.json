@@ -1,5 +1,4 @@
-{
-    "planets": [
+[
       {
         "name": "Mercury",
         "mass": "0.055 Earth masses",
@@ -127,4 +126,4 @@
         "photo":"https://i.imgur.com/Rnj7kZj.jpeg"
       }
     ]
-  }
+  

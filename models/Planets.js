@@ -17,4 +17,4 @@ let PlanetSchema = new Schema ({
         "photo": { type: String }
 })
 
-export default mongoose.model("planets", PlanetSchema);
+export default mongoose.model("Planets", PlanetSchema);
