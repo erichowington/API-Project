@@ -44,7 +44,7 @@ STEP 1:
   POST localhost:3000/api/planets
 ```
 ```bash
-STEP 2: Add the data of the new planet into the body.
+STEP 2: Add the data of the new planet in the body.
 ex.
   {
     "name": "Darugoron",
