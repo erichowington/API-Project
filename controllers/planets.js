@@ -1,5 +1,7 @@
 import Planet from "../models/Planets.js";
 
+// All Planets and their data.
+
 export const getPlanets = async (req, res) => {
   try {
     const planets = await Planet.find();
@@ -9,6 +11,8 @@ export const getPlanets = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+// One Planet and it's data by using its ID.
 
 export const getPlanet = async (req, res) => {
   try {
@@ -26,6 +30,8 @@ export const getPlanet = async (req, res) => {
   }
 };
 
+// Create a NEW planet.
+
 export const createPlanet = async (req, res) => {
   try {
     const planet = new Planet(req.body);
@@ -37,6 +43,8 @@ export const createPlanet = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+// Update an existing planet by using its ID.
 
 export const updatePlanet = async (req, res) => {
   try {
@@ -50,6 +58,8 @@ export const updatePlanet = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+// Delete a planet by using its ID.
 
 export const deletePlanet = async (req, res) => {
   try {
